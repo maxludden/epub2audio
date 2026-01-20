@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+
 # import shutil
 from pathlib import Path
 from typing import Any
@@ -13,7 +14,7 @@ from epub2audio.utils.logging import get_logger, get_progress
 
 logger = get_logger()
 progress = get_progress()
-RULE_SVG="""<?xml version="1.0" encoding="UTF-8"?>
+RULE_SVG = """<?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" \
 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1943.76 432.28">
   <defs>
@@ -91,7 +92,9 @@ def _class_name_from_declarations(declarations: str) -> str:
     if font_size:
         size_token = font_size.replace(" ", "").replace("%", "pct")
         name_parts.append(size_token)
-    if font_weight and any(token in font_weight for token in ["bold", "700", "800", "900"]):
+    if font_weight and any(
+        token in font_weight for token in ["bold", "700", "800", "900"]
+    ):
         name_parts.append("bold")
     if font_style and "italic" in font_style:
         name_parts.append("italic")
@@ -105,7 +108,9 @@ def _class_name_from_declarations(declarations: str) -> str:
         size_num = re.findall(r"[\d.]+", font_size)
         if size_num:
             value = float(size_num[0])
-            if ("px" in font_size and value >= 18) or ("em" in font_size and value >= 1.2):
+            if ("px" in font_size and value >= 18) or (
+                "em" in font_size and value >= 1.2
+            ):
                 base = "heading"
     return "-".join([base] + name_parts) if name_parts else base
 
@@ -129,6 +134,7 @@ def _build_class_mapping(css_paths: list[Path]) -> dict[str, str]:
 
 def _replace_classes_in_html(html_text: str, mapping: dict[str, str]) -> str:
     """Replace class names in HTML text using a mapping."""
+
     def replace_match(match: re.Match[str]) -> str:
         classes = match.group(1).split()
         new_classes = [mapping.get(cls, cls) for cls in classes]
@@ -141,9 +147,7 @@ def _replace_classes_in_css(css_text: str, mapping: dict[str, str]) -> str:
     """Replace class selectors in CSS text using a mapping."""
     if not mapping:
         return css_text
-    pattern = re.compile(
-        r"\.([A-Za-z0-9_-]+)"
-    )
+    pattern = re.compile(r"\.([A-Za-z0-9_-]+)")
 
     def repl(match: re.Match[str]) -> str:
         class_name = match.group(1)
@@ -170,7 +174,9 @@ def _extract_stylesheet_hrefs(html_text: str) -> list[str]:
     Returns:
         List of stylesheet href values in source order.
     """
-    logger.trace(f"Entered _extract_stylesheet_hrefs(\nhtml_text='{html_text[:50]}')...")
+    logger.trace(
+        f"Entered _extract_stylesheet_hrefs(\nhtml_text='{html_text[:50]}')..."
+    )
     try:
         root = ET.fromstring(html_text)
     except ET.ParseError:
@@ -207,11 +213,7 @@ def _replace_title(html_text: str, title: str) -> str:
     """
     # Minimal HTML escaping to prevent malformed title text.
     logger.trace(f"Entered _replace_title({title=})")
-    safe_title = (
-        title.replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-    )
+    safe_title = title.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     pattern = re.compile(r"(<title>)(.*?)(</title>)", re.IGNORECASE | re.DOTALL)
     if pattern.search(html_text):
         return pattern.sub(rf"\1{safe_title}\3", html_text, count=1)
@@ -224,7 +226,7 @@ def _replace_image_src(html_text: str, original: str, replacement: str) -> str:
     return html_text.replace(f'src="{original}"', f'src="{replacement}"')
 
 
-def copy_chapters_from_toc(
+def convert_to_html(
     stem: str,
     base_dir: Path = Path("static"),
 ) -> list[Path]:
@@ -261,18 +263,18 @@ def copy_chapters_from_toc(
         )
 
     # Load TOC entries that include chapter_path and chapter_title.
-    toc_entries: list[dict[str, Any]] = json.loads(
-        toc_path.read_text(encoding="utf-8")
-    )
+    toc_entries: list[dict[str, Any]] = json.loads(toc_path.read_text(encoding="utf-8"))
     written: list[Path] = []
 
     css_paths = list(extracted_root.rglob("*.css"))
     class_mapping = _build_class_mapping(css_paths)
 
     with progress:
-        copy_task = progress.add_task("Copying chapters...", total=len(toc_entries))
+        copy_task = progress.add_task("Converting chapters to HTML...", total=len(toc_entries))
         for entry in toc_entries:
-            chapter_title = entry.get("chapter_title") or f"Chapter {entry.get('order')}"
+            chapter_title = (
+                entry.get("chapter_title") or f"Chapter {entry.get('order')}"
+            )
             chapter_path = _resolve_chapter_path(entry, extracted_root)
             if not chapter_path.exists():
                 logger.warning("Chapter path missing: {path}", path=chapter_path)
@@ -285,22 +287,30 @@ def copy_chapters_from_toc(
 
             output_path = html_root / chapter_rel
             output_path.parent.mkdir(parents=True, exist_ok=True)
-            progress.update(copy_task, advance=.2, description=f"Copying to {output_path}...")
+            progress.update(
+                copy_task, advance=0.2, description=f"Copying to {output_path}..."
+            )
 
             # Update title while preserving the rest of the markup and links.
             html_text = chapter_path.read_text(encoding="utf-8")
-            progress.update(copy_task, advance=.2, description="Read html_text...")
+            progress.update(copy_task, advance=0.2, description="Read html_text...")
             updated_text = _replace_title(html_text, str(chapter_title))
-            progress.update(copy_task, advance=.1, description="Replacing title...")
-            updated_text = _replace_image_src(updated_text, "image_rsrc6C6.jpg", "rule.svg")
-            progress.update(copy_task, advance=.1, description="Replacing hr image...")
+            progress.update(copy_task, advance=0.1, description="Replacing title...")
+            updated_text = _replace_image_src(
+                updated_text, "image_rsrc6C6.jpg", "rule.svg"
+            )
+            progress.update(copy_task, advance=0.1, description="Replacing hr image...")
             if class_mapping:
                 updated_text = _replace_classes_in_html(updated_text, class_mapping)
             output_path.write_text(updated_text, encoding="utf-8")
-            progress.update(copy_task, advance=.2, description="Writing updated \
-html to {output_path}...")
+            progress.update(
+                copy_task,
+                advance=0.2,
+                description="Writing updated \
+html to {output_path}...",
+            )
             entry["html"] = str(output_path)
-            progress.update(copy_task, advance=.2, description="Updating TOC...")
+            progress.update(copy_task, advance=0.2, description="Updating TOC...")
             written.append(output_path)
 
             for href in _extract_stylesheet_hrefs(html_text):
@@ -323,10 +333,10 @@ html to {output_path}...")
                         css_text = _replace_classes_in_css(css_text, class_mapping)
                     dst_css.write_text(css_text, encoding="utf-8")
 
-    logger.trace("Copied {count} chapters to {path}", count=len(written), path=html_root)
+    logger.trace(
+        "Copied {count} chapters to {path}", count=len(written), path=html_root
+    )
     toc_path.write_text(json.dumps(toc_entries, indent=2), encoding="utf-8")
     return written
 
 
-if __name__ == "__main__":
-    copy_chapters_from_toc("defiance_of_the_fall_06")

@@ -16,6 +16,8 @@ from pathlib import Path
 
 # from rich.panel import Panel
 from rich_gradient.panel import Panel
+from rich.panel import Panel as RichPanel
+from rich.markdown import Markdown
 
 import typer
 
@@ -84,6 +86,8 @@ def generate(
         logger.trace(f"Reading markdown: {markdown.stem}...")
 
         text = markdown.read_text(encoding="utf-8")
+        _console.print(RichPanel(Markdown(text)))
+
         text = text.lstrip('#')
         text = text.strip()
         if not text:

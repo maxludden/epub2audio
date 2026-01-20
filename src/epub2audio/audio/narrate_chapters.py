@@ -43,7 +43,7 @@ def _audio_path_from_entry(
 
 
 @app.command()
-def convert_from_toc(
+def narrate_chapters(
     stem: str,
     *,
     base_dir: Path = Path("static"),
