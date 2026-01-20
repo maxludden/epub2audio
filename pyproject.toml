@@ -1,14 +1,27 @@
 [project]
 name = "epub2audio"
 version = "0.1.0"
-description = "Add your description here"
+description =  "A library to extract, convert, edit, and generate an audiobook from epub ebooks."
 readme = "README.md"
 authors = [
-    { name = "Maxwell Ludden", email = "max@ludden.dev" }
+    { name = "Max Ludden", email = "maxludden@me.com" }
 ]
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "python-slugify>=8.0.4",
+    "rich>=14.2.0",
+    "rich-gradient>=0.3.9",
+    "tts>=0.22.0",
+]
+
+[project.scripts]
+epub2audio = "epub2audio.main:app"
 
 [build-system]
 requires = ["uv_build>=0.9.24,<0.10.0"]
 build-backend = "uv_build"
+
+[tool.pylint]
+disable= [
+    "C0415"
+]

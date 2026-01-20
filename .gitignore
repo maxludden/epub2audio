@@ -1,1 +1,435 @@
 /.venv
+.DS_Store
+__pycache__/
+*.pyc
+logs/
+static/defiance_of_the_fall_06/audio/.DS_Store
+static/defiance_of_the_fall_06/audio/1. Challenge.m4a
+static/defiance_of_the_fall_06/audio/2. Eveningtide.m4a
+static/defiance_of_the_fall_06/audio/3. Plans and Schemes.m4a
+static/defiance_of_the_fall_06/audio/4. Regret.m4a
+static/defiance_of_the_fall_06/audio/5. Pathways.m4a
+static/defiance_of_the_fall_06/audio/6. Cultivation Cave.m4a
+static/defiance_of_the_fall_06/audio/7. Divide.m4a
+static/defiance_of_the_fall_06/audio/8. Beastcrafting.m4a
+static/defiance_of_the_fall_06/audio/9. Jammers.m4a
+static/defiance_of_the_fall_06/audio/10. Artifact.m4a
+static/defiance_of_the_fall_06/audio/11. Cleanse.m4a
+static/defiance_of_the_fall_06/audio/12. A Clean Break.m4a
+static/defiance_of_the_fall_06/audio/13. Birds.m4a
+static/defiance_of_the_fall_06/audio/14. The Abyss and Arcadia.m4a
+static/defiance_of_the_fall_06/audio/15. Jungle.m4a
+static/defiance_of_the_fall_06/audio/16. Fanaticism.m4a
+static/defiance_of_the_fall_06/audio/17. Sigil.m4a
+static/defiance_of_the_fall_06/audio/18. Holy Fire.m4a
+static/defiance_of_the_fall_06/audio/19. The Next Step.m4a
+static/defiance_of_the_fall_06/audio/20. S-grade.m4a
+static/defiance_of_the_fall_06/audio/21. Adaptability.m4a
+static/defiance_of_the_fall_06/audio/22. Incentives for Exploration.m4a
+static/defiance_of_the_fall_06/audio/23. Peace.m4a
+static/defiance_of_the_fall_06/audio/24. Upgrading the Shipyard.m4a
+static/defiance_of_the_fall_06/audio/25. Nonlethal Lethality.m4a
+static/defiance_of_the_fall_06/audio/26. Blighted Cut.m4a
+static/defiance_of_the_fall_06/audio/27. War Council.m4a
+static/defiance_of_the_fall_06/audio/28. Sincerity.m4a
+static/defiance_of_the_fall_06/audio/29. Clues.m4a
+static/defiance_of_the_fall_06/audio/30. Nepotism.m4a
+static/defiance_of_the_fall_06/audio/31. Loot.m4a
+static/defiance_of_the_fall_06/audio/32. Attunement.m4a
+static/defiance_of_the_fall_06/audio/33. Dust and Bones.m4a
+static/defiance_of_the_fall_06/audio/34. Crusade.m4a
+static/defiance_of_the_fall_06/audio/35. Battleplans.m4a
+static/defiance_of_the_fall_06/audio/36. Intent.m4a
+static/defiance_of_the_fall_06/audio/37. War Machine.m4a
+static/defiance_of_the_fall_06/audio/38. Massacre.m4a
+static/defiance_of_the_fall_06/audio/39. Monster.m4a
+static/defiance_of_the_fall_06/audio/40. Wrath.m4a
+static/defiance_of_the_fall_06/audio/41. Adcarkas.m4a
+static/defiance_of_the_fall_06/audio/42. Swamp.m4a
+static/defiance_of_the_fall_06/audio/43. Connectedness.m4a
+static/defiance_of_the_fall_06/audio/44. River.m4a
+static/defiance_of_the_fall_06/audio/45. Roots.m4a
+static/defiance_of_the_fall_06/audio/46. Life, Death, War.m4a
+static/defiance_of_the_fall_06/audio/47. Trinity.m4a
+static/defiance_of_the_fall_06/audio/48. Heaven’s Mandate.m4a
+static/defiance_of_the_fall_06/audio/49. Retaliation.m4a
+static/defiance_of_the_fall_06/audio/50. Showdown.m4a
+static/defiance_of_the_fall_06/audio/51. Void.m4a
+static/defiance_of_the_fall_06/audio/52. Pressure.m4a
+static/defiance_of_the_fall_06/audio/53. Liar.m4a
+static/defiance_of_the_fall_06/audio/54. Back Again.m4a
+static/defiance_of_the_fall_06/audio/55. Return.m4a
+static/defiance_of_the_fall_06/audio/56. Precipice.m4a
+static/defiance_of_the_fall_06/audio/57. Convictions.m4a
+static/defiance_of_the_fall_06/audio/58. Lunar Tribe.m4a
+static/defiance_of_the_fall_06/audio/59. Expansion.m4a
+static/defiance_of_the_fall_06/audio/60. First Entry.m4a
+static/defiance_of_the_fall_06/audio/61. Rifts.m4a
+static/defiance_of_the_fall_06/audio/62. The World is Ending.m4a
+static/defiance_of_the_fall_06/audio/63. Backup Plans.m4a
+static/defiance_of_the_fall_06/audio/64. Flames.m4a
+static/defiance_of_the_fall_06/audio/65. Ash and Steel.m4a
+static/defiance_of_the_fall_06/audio/66. Deathwish.m4a
+static/defiance_of_the_fall_06/audio/67. Tempering.m4a
+static/defiance_of_the_fall_06/audio/68. Plunge.m4a
+static/defiance_of_the_fall_06/audio/69. Corruption.m4a
+static/defiance_of_the_fall_06/audio/70. Sacrifices.m4a
+static/defiance_of_the_fall_06/audio/71. Void.m4a
+static/defiance_of_the_fall_06/audio/72. Gate.m4a
+static/defiance_of_the_fall_06/audio/73. Hunger.m4a
+static/defiance_of_the_fall_06/audio/74. Conformation of Supremacy.m4a
+static/defiance_of_the_fall_06/audio/75. Overrun.m4a
+static/defiance_of_the_fall_06/audio/76. Storm Surge.m4a
+static/defiance_of_the_fall_06/audio/77. Alpha.m4a
+static/defiance_of_the_fall_06/audio/78. Delayed Gratification.m4a
+static/defiance_of_the_fall_06/audio/79. Pathstrider.m4a
+static/defiance_of_the_fall_06/audio/80. Lunar Forest.m4a
+static/defiance_of_the_fall_06/audio/81. Tracks.m4a
+static/defiance_of_the_fall_06/audio/82. Let’s Talk.m4a
+static/defiance_of_the_fall_06/audio/83. The Hero’s Journey.m4a
+static/defiance_of_the_fall_06/audio/84. Datamancers.m4a
+static/defiance_of_the_fall_06/audio/85. Old Friends.m4a
+static/defiance_of_the_fall_06/audio/86. Bubbles.m4a
+static/defiance_of_the_fall_06/audio/87. Karma and Time.m4a
+static/defiance_of_the_fall_06/audio/88. Hands.m4a
+static/defiance_of_the_fall_06/audio/89. The Collector.m4a
+static/defiance_of_the_fall_06/audio/90. The Hero’s Burden.m4a
+static/defiance_of_the_fall_06/audio/91. Horror.m4a
+static/defiance_of_the_fall_06/audio/92. Mapper.m4a
+static/defiance_of_the_fall_06/audio/Defiance of the Fall 6: A LitRPG Adventure.m4b
+static/defiance_of_the_fall_06/epub/defiance_of_the_fall_01.epub
+static/defiance_of_the_fall_06/extracted/content.opf
+static/defiance_of_the_fall_06/extracted/cover.jpeg
+static/defiance_of_the_fall_06/extracted/mimetype
+static/defiance_of_the_fall_06/extracted/page_styles.css
+static/defiance_of_the_fall_06/extracted/page-map.xml
+static/defiance_of_the_fall_06/extracted/stylesheet.css
+static/defiance_of_the_fall_06/extracted/titlepage.xhtml
+static/defiance_of_the_fall_06/extracted/toc.ncx
+static/defiance_of_the_fall_06/extracted/META-INF/container.xml
+static/defiance_of_the_fall_06/extracted/OEBPS/font_rsrc6C3.ttf
+static/defiance_of_the_fall_06/extracted/OEBPS/image_rsrc6C5.jpg
+static/defiance_of_the_fall_06/extracted/OEBPS/image_rsrc6C6.jpg
+static/defiance_of_the_fall_06/extracted/OEBPS/image_rsrc6C7.jpg
+static/defiance_of_the_fall_06/extracted/OEBPS/image_rsrc6C8.jpg
+static/defiance_of_the_fall_06/extracted/OEBPS/image_rsrc6C9.jpg
+static/defiance_of_the_fall_06/extracted/OEBPS/image_rsrc6CA.jpg
+static/defiance_of_the_fall_06/extracted/OEBPS/image_rsrc6CB.jpg
+static/defiance_of_the_fall_06/extracted/OEBPS/image_rsrc6CC.jpg
+static/defiance_of_the_fall_06/extracted/OEBPS/image_rsrc6CD.jpg
+static/defiance_of_the_fall_06/extracted/OEBPS/part0001.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0002.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0003.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0004.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0005.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0006.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0007.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0008.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0009.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0010.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0011.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0012.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0013.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0014.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0015.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0016.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0017.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0018.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0019.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0020.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0021.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0022.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0023.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0024.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0025.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0026.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0027.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0028.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0029.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0030.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0031.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0032.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0033.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0034.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0035.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0036.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0037.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0038.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0039.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0040.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0041.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0042.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0043.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0044.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0045.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0046.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0047.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0048.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0049.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0050.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0051.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0052.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0053.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0054.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0055.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0056.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0057.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0058.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0059.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0060.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0061.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0062.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0063.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0064.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0065.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0066.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0067.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0068.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0069.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0070.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0071.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0072.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0073.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0074.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0075.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0076.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0077.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0078.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0079.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0080.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0081.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0082.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0083.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0084.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0085.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0086.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0087.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0088.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0089.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0090.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0091.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0092.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0093.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0094.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0095.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0096.xhtml
+static/defiance_of_the_fall_06/extracted/OEBPS/part0097.xhtml
+static/defiance_of_the_fall_06/html/.DS_Store
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/page_styles.css
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0001.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0002.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0003.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0004.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0005.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0006.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0007.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0008.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0009.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0010.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0011.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0012.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0013.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0014.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0015.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0016.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0017.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0018.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0019.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0020.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0021.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0022.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0023.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0024.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0025.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0026.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0027.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0028.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0029.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0030.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0031.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0032.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0033.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0034.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0035.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0036.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0037.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0038.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0039.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0040.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0041.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0042.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0043.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0044.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0045.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0046.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0047.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0048.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0049.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0050.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0051.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0052.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0053.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0054.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0055.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0056.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0057.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0058.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0059.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0060.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0061.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0062.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0063.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0064.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0065.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0066.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0067.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0068.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0069.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0070.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0071.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0072.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0073.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0074.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0075.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0076.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0077.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0078.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0079.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0080.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0081.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0082.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0083.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0084.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0085.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0086.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0087.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0088.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0089.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0090.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0091.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0092.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0093.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0094.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0095.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0096.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/part0097.xhtml
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/rule.png
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/rule.svg
+static/defiance_of_the_fall_06/html/defiance_of_the_fall_06/stylesheet.css
+static/defiance_of_the_fall_06/json/toc.json
+static/defiance_of_the_fall_06/markdown/.DS_Store
+static/defiance_of_the_fall_06/markdown/part0001.md
+static/defiance_of_the_fall_06/markdown/part0002.md
+static/defiance_of_the_fall_06/markdown/part0003.md
+static/defiance_of_the_fall_06/markdown/part0004.md
+static/defiance_of_the_fall_06/markdown/part0005.md
+static/defiance_of_the_fall_06/markdown/part0006.md
+static/defiance_of_the_fall_06/markdown/part0007.md
+static/defiance_of_the_fall_06/markdown/part0008.md
+static/defiance_of_the_fall_06/markdown/part0009.md
+static/defiance_of_the_fall_06/markdown/part0010.md
+static/defiance_of_the_fall_06/markdown/part0011.md
+static/defiance_of_the_fall_06/markdown/part0012.md
+static/defiance_of_the_fall_06/markdown/part0013.md
+static/defiance_of_the_fall_06/markdown/part0014.md
+static/defiance_of_the_fall_06/markdown/part0015.md
+static/defiance_of_the_fall_06/markdown/part0016.md
+static/defiance_of_the_fall_06/markdown/part0017.md
+static/defiance_of_the_fall_06/markdown/part0018.md
+static/defiance_of_the_fall_06/markdown/part0019.md
+static/defiance_of_the_fall_06/markdown/part0020.md
+static/defiance_of_the_fall_06/markdown/part0021.md
+static/defiance_of_the_fall_06/markdown/part0022.md
+static/defiance_of_the_fall_06/markdown/part0023.md
+static/defiance_of_the_fall_06/markdown/part0024.md
+static/defiance_of_the_fall_06/markdown/part0025.md
+static/defiance_of_the_fall_06/markdown/part0026.md
+static/defiance_of_the_fall_06/markdown/part0027.md
+static/defiance_of_the_fall_06/markdown/part0028.md
+static/defiance_of_the_fall_06/markdown/part0029.md
+static/defiance_of_the_fall_06/markdown/part0030.md
+static/defiance_of_the_fall_06/markdown/part0031.md
+static/defiance_of_the_fall_06/markdown/part0032.md
+static/defiance_of_the_fall_06/markdown/part0033.md
+static/defiance_of_the_fall_06/markdown/part0034.md
+static/defiance_of_the_fall_06/markdown/part0035.md
+static/defiance_of_the_fall_06/markdown/part0036.md
+static/defiance_of_the_fall_06/markdown/part0037.md
+static/defiance_of_the_fall_06/markdown/part0038.md
+static/defiance_of_the_fall_06/markdown/part0039.md
+static/defiance_of_the_fall_06/markdown/part0040.md
+static/defiance_of_the_fall_06/markdown/part0041.md
+static/defiance_of_the_fall_06/markdown/part0042.md
+static/defiance_of_the_fall_06/markdown/part0043.md
+static/defiance_of_the_fall_06/markdown/part0044.md
+static/defiance_of_the_fall_06/markdown/part0045.md
+static/defiance_of_the_fall_06/markdown/part0046.md
+static/defiance_of_the_fall_06/markdown/part0047.md
+static/defiance_of_the_fall_06/markdown/part0048.md
+static/defiance_of_the_fall_06/markdown/part0049.md
+static/defiance_of_the_fall_06/markdown/part0050.md
+static/defiance_of_the_fall_06/markdown/part0051.md
+static/defiance_of_the_fall_06/markdown/part0052.md
+static/defiance_of_the_fall_06/markdown/part0053.md
+static/defiance_of_the_fall_06/markdown/part0054.md
+static/defiance_of_the_fall_06/markdown/part0055.md
+static/defiance_of_the_fall_06/markdown/part0056.md
+static/defiance_of_the_fall_06/markdown/part0057.md
+static/defiance_of_the_fall_06/markdown/part0058.md
+static/defiance_of_the_fall_06/markdown/part0059.md
+static/defiance_of_the_fall_06/markdown/part0060.md
+static/defiance_of_the_fall_06/markdown/part0061.md
+static/defiance_of_the_fall_06/markdown/part0062.md
+static/defiance_of_the_fall_06/markdown/part0063.md
+static/defiance_of_the_fall_06/markdown/part0064.md
+static/defiance_of_the_fall_06/markdown/part0065.md
+static/defiance_of_the_fall_06/markdown/part0066.md
+static/defiance_of_the_fall_06/markdown/part0067.md
+static/defiance_of_the_fall_06/markdown/part0068.md
+static/defiance_of_the_fall_06/markdown/part0069.md
+static/defiance_of_the_fall_06/markdown/part0070.md
+static/defiance_of_the_fall_06/markdown/part0071.md
+static/defiance_of_the_fall_06/markdown/part0072.md
+static/defiance_of_the_fall_06/markdown/part0073.md
+static/defiance_of_the_fall_06/markdown/part0074.md
+static/defiance_of_the_fall_06/markdown/part0075.md
+static/defiance_of_the_fall_06/markdown/part0076.md
+static/defiance_of_the_fall_06/markdown/part0077.md
+static/defiance_of_the_fall_06/markdown/part0078.md
+static/defiance_of_the_fall_06/markdown/part0079.md
+static/defiance_of_the_fall_06/markdown/part0080.md
+static/defiance_of_the_fall_06/markdown/part0081.md
+static/defiance_of_the_fall_06/markdown/part0082.md
+static/defiance_of_the_fall_06/markdown/part0083.md
+static/defiance_of_the_fall_06/markdown/part0084.md
+static/defiance_of_the_fall_06/markdown/part0085.md
+static/defiance_of_the_fall_06/markdown/part0086.md
+static/defiance_of_the_fall_06/markdown/part0087.md
+static/defiance_of_the_fall_06/markdown/part0088.md
+static/defiance_of_the_fall_06/markdown/part0089.md
+static/defiance_of_the_fall_06/markdown/part0090.md
+static/defiance_of_the_fall_06/markdown/part0091.md
+static/defiance_of_the_fall_06/markdown/part0092.md
+static/defiance_of_the_fall_06/markdown/part0093.md
+static/defiance_of_the_fall_06/markdown/part0094.md
+static/defiance_of_the_fall_06/markdown/part0095.md
+static/defiance_of_the_fall_06/markdown/part0096.md
+static/defiance_of_the_fall_06/markdown/part0097.md
+static/defiance_of_the_fall_06/markdown/rule.svg
+static/defiance_of_the_fall_06/zip/defiance_of_the_fall_06.zip
+.gitignore
+static/epub/defiance_of_the_fall_01.epub
+static/epub/defiance_of_the_fall_02.epub
+static/epub/defiance_of_the_fall_03.epub
+static/epub/defiance_of_the_fall_04.epub
+static/epub/defiance_of_the_fall_05.epub
+static/epub/defiance_of_the_fall_06.epub
+static/epub/defiance_of_the_fall_07.epub
+static/epub/defiance_of_the_fall_08.epub
+static/epub/defiance_of_the_fall_09.epub
+static/epub/defiance_of_the_fall_10.epub
+static/epub/defiance_of_the_fall_11.epub
+static/epub/defiance_of_the_fall_12.epub
+static/epub/defiance_of_the_fall_13.epub
+static/epub/defiance_of_the_fall_14.epub
+.env
